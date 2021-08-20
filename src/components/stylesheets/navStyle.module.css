@@ -4,12 +4,7 @@ Variables
 ===============
 */
 
-* {
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-  list-style: none;
-}
+
 :root {
   /* dark shades of primary color*/
   --clr-primary-1: hsl(205, 86%, 17%);
@@ -80,13 +75,13 @@ a {
 
 
 p {
-  margin-bottom: 1.25rem;
-  color: var(--clr-grey-5);
+  /* margin-bottom: 1.25rem; */
+  color: hsl(0, 0%, 15%);
 }
 nav {
   position:fixed;
   width: 100%;
-  z-index: 1030;
+  /* z-index: 1030; */
 }
 
 .search {
@@ -104,6 +99,7 @@ nav {
   background-color:var(--clr-white);
   margin-left: -1.5rem;
   color: var(--clr-primary-5);
+  background-color: transparent;
   /* transition: var(--transition); */
 }
 .toggleSearch {
@@ -243,12 +239,14 @@ nav {
     font-size: 15px;
   }
   .searchDiv {
+    text-align: center;
     margin-top: 1em;
     position: absolute;
+    background-color: transparent;
     width: 100%;
   }
   .search {
-    padding: .2em;
+    padding: .5em;
     color: var(--clr-grey-4);
     width: 70%;
   }
@@ -257,5 +255,11 @@ nav {
   }
   .addMargin {
     margin-left:9em !important;
+  }
+  .linksContainer {
+    z-index: 1;
+  }
+  .navHeader{
+    padding: .5rem;
   }
 }
