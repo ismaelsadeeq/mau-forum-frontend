@@ -8,7 +8,11 @@
   position: relative;
   font-family: 'Poppins' 'sans-serif';
 }
+.section {
+  display: flex;
+}
 img {
+  padding: 2px;
   width: 100%;
 }
 .width {
@@ -43,15 +47,43 @@ h4 {
   border: .1px solid hsl(220, 2%, 71%);
   background: hsla(0, 0%, 77%, 0.39);
 }
+.section {
+  margin-top: 1em;
+  font-size: 16px;
+}
+.section .subPosts {
+  border: 0;
+  padding: 0;
+}
+.section span {
+  font-weight: 200;
+}
+.break  {
+  width: 99%;
+  margin-bottom: 2em;
+  color: rgb(72, 100, 127);
+  margin: auto
+}
 @media (min-width:900px){
+  .section div {
+    padding: 5px;
+  }
   .fent {
+    position: relative;
     color:hsl(0, 0%, 15%) ;
     font-size: 15px;
     padding-left:10.5px;
-    margin-top: -5em;
+    margin-top: -3.4em;
   }
   .fent2 {
     font-size: 14px;
+  }
+  .sub {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 8px;
+    width: 100%;
   }
   .subPosts {
     display: flex;
@@ -63,6 +95,10 @@ h4 {
 
 }
 @media (max-width:900px){
+  .section {
+    flex-direction: column;
+    justify-content: space-around;
+  }
   .mauNews {
     flex-direction: column;
   }
@@ -76,7 +112,6 @@ h4 {
     padding: 3px;
   }
   .fent {
-    background-color: rgba(255, 250, 250, 0.34);
     margin-top: -5em;
     position: absolute;
     color:hsl(209, 28%, 39%) ;

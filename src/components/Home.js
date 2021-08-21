@@ -5,6 +5,7 @@ import library from './assets/pictures/e-library.png'
 import styles from './stylesheets/homeStyle.module.css'
 import musti from './assets/pictures/musty1.png'
 import nana from './assets/pictures/building.png'
+import coders from './assets/pictures/programmers.png'
 function Home() {
   return (
     <div>
@@ -24,14 +25,16 @@ function Home() {
                   college of medical sciences in MAU yola
                 </p>
               </div>
-              <div  className={`${styles.subPosts} ${styles.removeBottom} `}>
-                <p>Analysis:  Conversion of Mautech to a conventional University the long awaited is now ready...</p>
-              </div>
-              <div className={`${styles.subPosts} ${styles.removeBottom}`}>
-                <p>Senate Committe approve Result and suspend Convocation....</p>
-              </div>
-              <div className={`${styles.subPosts}`}>
-                <p>Conversion of Mautech to a conventional University the long awaited is now ready...</p>
+              <div className={styles.sub}>
+                <div  className={`${styles.subPosts} ${styles.removeBottom} `}>
+                  <p>Analysis:  Conversion of Mautech to a conventional University the long awaited is now ready...</p>
+                </div>
+                <div className={`${styles.subPosts} ${styles.removeBottom}`}>
+                  <p>Senate Committe approve Result and suspend Convocation....</p>
+                </div>
+                <div className={`${styles.subPosts}`}>
+                  <p>Conversion of Mautech to a conventional University the long awaited is now ready...</p>
+                </div>
               </div>
           </div>
           <div className={styles.adminPost}>
@@ -69,8 +72,32 @@ function Home() {
               </div>
           </div>
         </div>
-        <div>
-
+        <hr className={styles.break} />
+        <div className={styles.section}>
+            <div>
+              <img src={coders} />
+              <h6>Computer Science Department  launches mautech forum</h6>
+              <p className={styles.subPosts}>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
+              <span>5 Min ago</span><span>| Abubakar Sadiq</span>
+            </div>
+            <div>
+              <img src={coders} />
+              <h6>Computer Science Department  launches mautech forum</h6>
+              <p className={styles.subPosts}>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
+              <span>5 Min ago</span><span>| Abubakar Sadiq</span>
+            </div>
+            <div>
+              <img src={coders} />
+              <h6>Computer Science Department  launches mautech forum</h6>
+              <p className={styles.subPosts}>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
+              <span>5 Min ago</span><span>| Abubakar Sadiq</span>
+            </div>
+            <div>
+              <img src={coders} />
+              <h6>Computer Science Department  launches mautech forum</h6>
+              <p className={styles.subPosts}>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
+              <span>5 Min</span><span>| Abubakar Sadiq</span>
+            </div>
         </div>
         <div>
 
