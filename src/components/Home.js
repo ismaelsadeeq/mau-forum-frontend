@@ -134,17 +134,17 @@ function Home() {
             <hr></hr>
             <div className={styles.section2SubPst}>
               <img src={taju2}></img>
-              <p>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
+              <p className={styles.subParagraph}>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
             </div>
             <hr></hr>
             <div className={styles.section2SubPst}>
               <img src={taju2}></img>
-              <p>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
+              <p className={styles.subParagraph}>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
             </div>
             <hr></hr>
             <div className={styles.section2SubPst}>
               <img src={taju2}></img>
-              <p>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
+              <p className={styles.subParagraph}>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
             </div>
             <hr></hr>
           </div>
@@ -157,17 +157,17 @@ function Home() {
             <hr></hr>
             <div className={styles.section2SubPst}>
               <img src={taju2}></img>
-              <p>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
+              <p className={styles.subParagraph}>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
             </div>
             <hr></hr>
             <div className={styles.section2SubPst}>
               <img src={taju2}></img>
-              <p>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
+              <p className={styles.subParagraph}>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
             </div>
             <hr></hr>
             <div className={styles.section2SubPst}>
               <img src={taju2}></img>
-              <p>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
+              <p className={styles.subParagraph}>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
             </div>
             <hr></hr>
           </div>

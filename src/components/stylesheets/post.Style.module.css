@@ -1,3 +1,12 @@
+h6 {
+  font-size: 13px;
+}
+.aside img {
+  width: auto;
+}
+.subParagraph {
+  font-size: 11px;
+}
 .post {
   display: flex;
   margin: 0 auto;
@@ -7,11 +16,7 @@
   position: relative;
   font-family: 'Poppins' 'sans-serif';
 }
-.post {
-  width: 100%;
-}
 .post p {
-  padding: 2em;
   padding-top: .5em;
 }
 .expandedPost {
@@ -40,6 +45,33 @@
 }
 .section {
   display: flex;
+  justify-content: space-between;
+}
+.section2SubPst {
+  display: flex;
+}
+.aside {
+  margin-top:10em;
+  margin-left:3em;
+}
+.asideDiv{
+  padding-top:1em;
+}
+.similarPost {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.similarPost div {
+  padding: 1em;
+  width:30% ;
+}
+.similarPost p {
+  font-size: 11px;
+}
+.similarPost span {
+  font-size: 11px;
+  font-weight: 200;
 }
 @media (max-width:900px){
   .expandedPost {
@@ -48,5 +80,15 @@
   .author div {
     display: flex;
     flex-direction: column;
+  }
+  .aside {
+    display: none;
+  }
+  .similarPost {
+    flex-direction: column;
+  }
+  .similarPost div {
+    padding: 1em;
+    width:100% ;
   }
 }
