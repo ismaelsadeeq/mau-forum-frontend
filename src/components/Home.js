@@ -6,12 +6,13 @@ import styles from './stylesheets/homeStyle.module.css'
 import musti from './assets/pictures/musty1.png'
 import nana from './assets/pictures/building.png'
 import coders from './assets/pictures/programmers.png'
+import taju from './assets/pictures/tajuW.png'
+import taju2 from './assets/pictures/tajuP.png'
+
 function Home() {
   return (
     <div>
-      <div>
       < Nav />
-      </div>
       <div className={styles.home}>
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
@@ -100,7 +101,77 @@ function Home() {
             </div>
         </div>
         <div>
-
+          <section className={styles.section}>
+            <div>
+              <div>
+                <h3>Politics</h3>
+                <img src={taju}></img>
+                <h6>Comrade Sadiq emerges the winner of the just concluded SUG Election</h6>
+              </div>
+               <hr></hr>
+              <div className={styles.section2SubPst}>
+                <img src={taju2}></img>
+                <p>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
+              </div>
+               <hr></hr>
+              <div className={styles.section2SubPst}>
+                <img src={taju2}></img>
+                <p>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
+              </div>
+               <hr></hr>
+              <div className={styles.section2SubPst}>
+                <img src={taju2}></img>
+                <p>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
+              </div>
+               <hr></hr>
+            </div>
+            <div>
+            <div>
+              <h3>Politics</h3>
+              <img src={taju}></img>
+              <h6>Comrade Sadiq emerges the winner of the just concluded SUG Election</h6>
+            </div>
+            <hr></hr>
+            <div className={styles.section2SubPst}>
+              <img src={taju2}></img>
+              <p>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
+            </div>
+            <hr></hr>
+            <div className={styles.section2SubPst}>
+              <img src={taju2}></img>
+              <p>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
+            </div>
+            <hr></hr>
+            <div className={styles.section2SubPst}>
+              <img src={taju2}></img>
+              <p>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
+            </div>
+            <hr></hr>
+          </div>
+          <div>
+            <div>
+              <h3>Politics</h3>
+              <img src={taju}></img>
+              <h6>Comrade Sadiq emerges the winner of the just concluded SUG Election</h6>
+            </div>
+            <hr></hr>
+            <div className={styles.section2SubPst}>
+              <img src={taju2}></img>
+              <p>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
+            </div>
+            <hr></hr>
+            <div className={styles.section2SubPst}>
+              <img src={taju2}></img>
+              <p>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
+            </div>
+            <hr></hr>
+            <div className={styles.section2SubPst}>
+              <img src={taju2}></img>
+              <p>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
+            </div>
+            <hr></hr>
+          </div>
+          </section>
         </div>
         <Footer />
       </div>
