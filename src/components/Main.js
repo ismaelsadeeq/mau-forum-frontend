@@ -7,8 +7,9 @@ function Main() {
   return (
     <div>
       <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/post" exact component={Post} />
+        <Route  path="/" exact component={Home} />
+        <Route  path="/post" exact component={Post} />
+        <Redirect path="/" />
       </Switch>
     </div> 
   )
