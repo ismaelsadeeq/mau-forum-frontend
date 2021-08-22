@@ -21,7 +21,7 @@ function Home() {
           <div className={styles.adminPost}>
               <div>
                 <h4>Nuc approved college of Medical Science after long delibration</h4>
-                <img src={library}></img>
+                <img alt="" src={library}></img>
                 <p className={styles.fent}>The Nigerian University commision (Nuc) have approved the
                   college of medical sciences in MAU yola
                 </p>
@@ -40,7 +40,7 @@ function Home() {
           </div>
           <div className={styles.adminPost}>
               <div>
-                <img src={musti}></img>
+                <img alt="" src={musti}></img>
                 <p className={styles.fent2}>School Portal now open for Registration for New student and Returning Student(Final Year) 
                 </p>
               </div>
@@ -51,13 +51,13 @@ function Home() {
                 <p>Registration Procedures and how to reserve a bed space Click here to view.</p>
               </div>
               <div>
-                <img src={nana} />
+                <img alt="" src={nana} />
                 <p>Accomodation Plug: Student suspend for selling out bedspace</p>
               </div>
           </div>
           <div className={styles.adminPost}>
               <div>
-                <img src={musti}></img>
+                <img alt="" src={musti}></img>
                 <p className={styles.fent2}>School Portal now open for Registration for New student and Returning Student(Final Year) 
                 </p>
               </div>
@@ -68,7 +68,7 @@ function Home() {
                 <p>Registration Procedures and how to reserve a bed space Click here to view.</p>
               </div>
               <div>
-                <img src={nana} />
+                <img alt="" src={nana} />
                 <p>Accomodation Plug: Student suspend for selling out bedspace</p>
               </div>
           </div>
@@ -76,25 +76,25 @@ function Home() {
         <hr className={styles.break} />
         <div className={styles.section}>
             <div>
-              <img src={coders} />
+              <img alt="" src={coders} />
               <h6>Computer Science Department  launches mautech forum</h6>
               <p className={styles.subPosts}>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
               <span>5 Min ago</span><span>| Abubakar Sadiq</span>
             </div>
             <div>
-              <img src={coders} />
+              <img alt="" src={coders} />
               <h6>Computer Science Department  launches mautech forum</h6>
               <p className={styles.subPosts}>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
               <span>5 Min ago</span><span>| Abubakar Sadiq</span>
             </div>
             <div>
-              <img src={coders} />
+              <img alt="" src={coders} />
               <h6>Computer Science Department  launches mautech forum</h6>
               <p className={styles.subPosts}>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
               <span>5 Min ago</span><span>| Abubakar Sadiq</span>
             </div>
             <div>
-              <img src={coders} />
+              <img alt="" src={coders} />
               <h6>Computer Science Department  launches mautech forum</h6>
               <p className={styles.subPosts}>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
               <span>5 Min</span><span>| Abubakar Sadiq</span>
@@ -105,22 +105,22 @@ function Home() {
             <div>
               <div>
                 <h3>Politics</h3>
-                <img src={taju}></img>
+                <img alt="" src={taju}></img>
                 <h6>Comrade Sadiq emerges the winner of the just concluded SUG Election</h6>
               </div>
                <hr></hr>
               <div className={styles.section2SubPst}>
-                <img src={taju2}></img>
+                <img alt="" src={taju2}></img>
                 <p>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
               </div>
                <hr></hr>
               <div className={styles.section2SubPst}>
-                <img src={taju2}></img>
+                <img alt="" src={taju2}></img>
                 <p>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
               </div>
                <hr></hr>
               <div className={styles.section2SubPst}>
-                <img src={taju2}></img>
+                <img alt="" src={taju2}></img>
                 <p>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
               </div>
                <hr></hr>
@@ -128,22 +128,22 @@ function Home() {
             <div>
             <div>
               <h3>Politics</h3>
-              <img src={taju}></img>
+              <img alt="" src={taju}></img>
               <h6>Comrade Sadiq emerges the winner of the just concluded SUG Election</h6>
             </div>
             <hr></hr>
             <div className={styles.section2SubPst}>
-              <img src={taju2}></img>
+              <img alt="" src={taju2}></img>
               <p className={styles.subParagraph}>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
             </div>
             <hr></hr>
             <div className={styles.section2SubPst}>
-              <img src={taju2}></img>
+              <img alt="" src={taju2}></img>
               <p className={styles.subParagraph}>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
             </div>
             <hr></hr>
             <div className={styles.section2SubPst}>
-              <img src={taju2}></img>
+              <img alt="" src={taju2}></img>
               <p className={styles.subParagraph}>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
             </div>
             <hr></hr>
@@ -151,22 +151,22 @@ function Home() {
           <div>
             <div>
               <h3>Politics</h3>
-              <img src={taju}></img>
+              <img alt="" src={taju}></img>
               <h6>Comrade Sadiq emerges the winner of the just concluded SUG Election</h6>
             </div>
             <hr></hr>
             <div className={styles.section2SubPst}>
-              <img src={taju2}></img>
+              <img alt="" src={taju2}></img>
               <p className={styles.subParagraph}>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
             </div>
             <hr></hr>
             <div className={styles.section2SubPst}>
-              <img src={taju2}></img>
+              <img alt="" src={taju2}></img>
               <p className={styles.subParagraph}>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
             </div>
             <hr></hr>
             <div className={styles.section2SubPst}>
-              <img src={taju2}></img>
+              <img alt="" src={taju2}></img>
               <p className={styles.subParagraph}>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
             </div>
             <hr></hr>

@@ -20,7 +20,7 @@ function Post() {
                 <h3>NUC Approved college of Medical Science after long delibration</h3>
               </div>
               <div className={styles.author}>
-                <img src={nibras}></img>
+                <img alt="" src={nibras}></img>
                 <div>
                   <span> By Abubakar Ismail, Mau</span>
                   <span className={styles.time}> Posted 08:05:58 GMT 12th Aug 2021</span>
@@ -28,7 +28,7 @@ function Post() {
               </div>
               <div>
                 <div>
-                  <img src={library}></img>
+                  <img alt="" src={library}></img>
                 </div>
                 <p>President Muhammadu Buhari has approved the establishment of five new universities specialised in technology and health to close the huge gap in the doctor-patient ratio as well as in medical research and production of pharmaceutical products. This brings the total number of federal universities to 50 and overall total to 201.
                     A take-off grant of N4 billion each for the Universities of Technology and N5 billion each for the Universities of Health Science from the funding resources of TETFund has also been approved to ensure early take-off of the institutions.
@@ -45,37 +45,37 @@ function Post() {
               <h3>Similar Posts</h3>
               <div className={styles.similarPost}>
                 <div >
-                  <img src={coders} />
+                  <img alt="" src={coders} />
                   <h6>Computer Science Department  launches mautech forum</h6>
                   <p className={styles.subPosts}>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
                   <span>5 Min ago </span><span>| Abubakar Sadiq</span>
                 </div>
                 <div>
-                  <img src={coders} />
+                  <img alt="" src={coders} />
                   <h6>Computer Science Department  launches mautech forum</h6>
                   <p className={styles.subPosts}>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
                   <span>5 Min ago </span><span>| Abubakar Sadiq</span>
                 </div>
                 <div>
-                  <img src={coders} />
+                  <img alt="" src={coders} />
                   <h6>Computer Science Department  launches mautech forum</h6>
                   <p className={styles.subPosts}>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
                   <span>5 Min ago </span><span>| Abubakar Sadiq</span>
                 </div>
                 <div>
-                  <img src={coders} />
+                  <img alt="" src={coders} />
                   <h6>Computer Science Department  launches mautech forum</h6>
                   <p className={styles.subPosts}>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
                   <span>5 Min ago </span><span>| Abubakar Sadiq</span>
                 </div>
                 <div>
-                  <img src={coders} />
+                  <img alt="" src={coders} />
                   <h6>Computer Science Department  launches mautech forum</h6>
                   <p className={styles.subPosts}>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
                   <span>5 Min ago </span><span>| Abubakar Sadiq</span>
                 </div>
                 <div>
-                  <img src={coders} />
+                  <img alt="" src={coders} />
                   <h6>Computer Science Department  launches mautech forum</h6>
                   <p className={styles.subPosts}>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
                   <span>5 Min ago </span><span>| Abubakar Sadiq</span>
@@ -88,22 +88,22 @@ function Post() {
             <div >
               <div >
                 <h3>Politics</h3>
-                <img src={taju}></img>
+                <img alt="" src={taju}></img>
                 <h6>Comrade Sadiq emerges the winner of the just concluded SUG Election</h6>
               </div>
               <hr></hr>
               <div className={styles.section2SubPst}>
-                <img className={styles.sectionImage} src={taju2}></img>
+                <img alt="" className={styles.sectionImage} src={taju2}></img>
                 <p>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
               </div>
               <hr></hr>
               <div className={styles.section2SubPst}>
-                <img className={styles.sectionImage} src={taju2}></img>
+                <img alt="" className={styles.sectionImage} src={taju2}></img>
                 <p>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
               </div>
               <hr></hr>
               <div className={styles.section2SubPst}>
-                <img className={styles.sectionImage} src={taju2}></img>
+                <img alt="" className={styles.sectionImage} src={taju2}></img>
                 <p>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
               </div>
               <hr></hr>
@@ -111,22 +111,22 @@ function Post() {
             <div className={styles.asideDiv}>
               <div>
                 <h3>Politics</h3>
-                <img src={taju}></img>
+                <img alt="" src={taju}></img>
                 <h6>Comrade Sadiq emerges the winner of the just concluded SUG Election</h6>
               </div>
               <hr></hr>
               <div className={styles.section2SubPst}>
-                <img className={styles.sectionImage} src={taju2}></img>
+                <img alt="" className={styles.sectionImage} src={taju2}></img>
                 <p>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
               </div>
               <hr></hr>
               <div className={styles.section2SubPst}>
-                <img className={styles.sectionImage} src={taju2}></img>
+                <img alt="" className={styles.sectionImage} src={taju2}></img>
                 <p>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
               </div>
               <hr></hr>
               <div className={styles.section2SubPst}>
-                <img className={styles.sectionImage} src={taju2}></img>
+                <img alt="" className={styles.sectionImage} src={taju2}></img>
                 <p>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
               </div>
               <hr></hr>
@@ -134,22 +134,22 @@ function Post() {
             <div >
               <div className={styles.asideDiv}>
                 <h3>Politics</h3>
-                <img src={taju}></img>
+                <img alt="" src={taju}></img>
                 <h6>Comrade Sadiq emerges the winner of the just concluded SUG Election</h6>
               </div>
               <hr></hr>
               <div className={styles.section2SubPst}>
-                <img className={styles.sectionImage} src={taju2}></img>
+                <img alt="" className={styles.sectionImage} src={taju2}></img>
                 <p>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
               </div>
               <hr></hr>
               <div className={styles.section2SubPst}>
-                <img className={styles.sectionImage} src={taju2}></img>
+                <img alt="" className={styles.sectionImage} src={taju2}></img>
                 <p>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
               </div>
               <hr></hr>
               <div className={styles.section2SubPst}>
-                <img className={styles.sectionImage} src={taju2}></img>
+                <img alt="" className={styles.sectionImage} src={taju2}></img>
                 <p>The Student of the department presents a mautech forum to the vice chancellor of the university Prof Abdullahi Liman Tukur</p>
               </div>
               <hr></hr>
@@ -157,6 +157,7 @@ function Post() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }
