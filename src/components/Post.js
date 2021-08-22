@@ -156,8 +156,8 @@ function Post() {
             </div>
           </div>
         </div>
+        <Footer />
       </div>
-      <Footer />
     </div>
   )
 }

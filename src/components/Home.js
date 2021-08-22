@@ -11,7 +11,7 @@ import taju2 from './assets/pictures/tajuP.png'
 
 function Home() {
   return (
-    <div>
+    <div >
       < Nav />
       <div className={styles.home}>
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -22,8 +22,9 @@ function Home() {
               <div>
                 <h4>Nuc approved college of Medical Science after long delibration</h4>
                 <img alt="" src={library}></img>
-                <p className={styles.fent}>The Nigerian University commision (Nuc) have approved the
+                <p className={styles.fent}> <a href='/post'>The Nigerian University commision (Nuc) have approved the
                   college of medical sciences in MAU yola
+                  </a>
                 </p>
               </div>
               <div className={styles.sub}>
